@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HTMLParser.h"
+#import "HTMLParserDelegate.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    HTMLParser.delagate = [HTMLParserDelegate class];
     return YES;
 }
 

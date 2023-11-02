@@ -14,6 +14,22 @@
 		373DA5AC2AF3CA8F002E787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373DA5AB2AF3CA8F002E787A /* Assets.xcassets */; };
 		373DA5AF2AF3CA8F002E787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373DA5AD2AF3CA8F002E787A /* LaunchScreen.storyboard */; };
 		373DA5B22AF3CA8F002E787A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5B12AF3CA8F002E787A /* main.m */; };
+		373DA5D72AF3CAB8002E787A /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5B92AF3CAB8002E787A /* HTMLParser.m */; };
+		373DA5D82AF3CAB8002E787A /* HTMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5BA2AF3CAB8002E787A /* HTMLParserDelegate.m */; };
+		373DA5D92AF3CAB8002E787A /* HTMLTagHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C02AF3CAB8002E787A /* HTMLTagHeader.m */; };
+		373DA5DA2AF3CAB8002E787A /* HTMLBaseTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C12AF3CAB8002E787A /* HTMLBaseTag.m */; };
+		373DA5DB2AF3CAB8002E787A /* TextHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C32AF3CAB8002E787A /* TextHTMLTag.m */; };
+		373DA5DC2AF3CAB8002E787A /* FONTHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C42AF3CAB8002E787A /* FONTHTMLTag.m */; };
+		373DA5DD2AF3CAB8002E787A /* NEWLINEHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C52AF3CAB8002E787A /* NEWLINEHTMLTag.m */; };
+		373DA5DE2AF3CAB8002E787A /* IMGHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C62AF3CAB8002E787A /* IMGHTMLTag.m */; };
+		373DA5DF2AF3CAB8002E787A /* HTMLTagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C72AF3CAB8002E787A /* HTMLTagFactory.m */; };
+		373DA5E02AF3CAB8002E787A /* BHTMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5C82AF3CAB8002E787A /* BHTMLTag.m */; };
+		373DA5E12AF3CAB8002E787A /* HTMLParserAttRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5CF2AF3CAB8002E787A /* HTMLParserAttRegex.m */; };
+		373DA5E22AF3CAB8002E787A /* HTMLBaseTag+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5D12AF3CAB8002E787A /* HTMLBaseTag+Tool.m */; };
+		373DA5E32AF3CAB8002E787A /* NSTextCheckingResult+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5D42AF3CAB8002E787A /* NSTextCheckingResult+Tool.m */; };
+		373DA5E42AF3CAB8002E787A /* HTMLParserTagRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5D52AF3CAB8002E787A /* HTMLParserTagRegex.m */; };
+		373DA5EA2AF3CC81002E787A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DA5E82AF3CC81002E787A /* UIColor+Hex.m */; };
+		5E00FF20F035588D0FE26EF8 /* libPods-HTMLParseDomn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42013ED6D068059088626EB3 /* libPods-HTMLParseDomn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +45,39 @@
 		373DA5AE2AF3CA8F002E787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373DA5B02AF3CA8F002E787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373DA5B12AF3CA8F002E787A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		373DA5B92AF3CAB8002E787A /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		373DA5BA2AF3CAB8002E787A /* HTMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParserDelegate.m; sourceTree = "<group>"; };
+		373DA5BB2AF3CAB8002E787A /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		373DA5BC2AF3CAB8002E787A /* HTMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParserDelegate.h; sourceTree = "<group>"; };
+		373DA5BE2AF3CAB8002E787A /* HTMLTagFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTagFactory.h; sourceTree = "<group>"; };
+		373DA5BF2AF3CAB8002E787A /* IMGHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGHTMLTag.h; sourceTree = "<group>"; };
+		373DA5C02AF3CAB8002E787A /* HTMLTagHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTagHeader.m; sourceTree = "<group>"; };
+		373DA5C12AF3CAB8002E787A /* HTMLBaseTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLBaseTag.m; sourceTree = "<group>"; };
+		373DA5C22AF3CAB8002E787A /* BHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTMLTag.h; sourceTree = "<group>"; };
+		373DA5C32AF3CAB8002E787A /* TextHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextHTMLTag.m; sourceTree = "<group>"; };
+		373DA5C42AF3CAB8002E787A /* FONTHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FONTHTMLTag.m; sourceTree = "<group>"; };
+		373DA5C52AF3CAB8002E787A /* NEWLINEHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEWLINEHTMLTag.m; sourceTree = "<group>"; };
+		373DA5C62AF3CAB8002E787A /* IMGHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMGHTMLTag.m; sourceTree = "<group>"; };
+		373DA5C72AF3CAB8002E787A /* HTMLTagFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTagFactory.m; sourceTree = "<group>"; };
+		373DA5C82AF3CAB8002E787A /* BHTMLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTMLTag.m; sourceTree = "<group>"; };
+		373DA5C92AF3CAB8002E787A /* HTMLBaseTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLBaseTag.h; sourceTree = "<group>"; };
+		373DA5CA2AF3CAB8002E787A /* HTMLTagHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTagHeader.h; sourceTree = "<group>"; };
+		373DA5CB2AF3CAB8002E787A /* TextHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextHTMLTag.h; sourceTree = "<group>"; };
+		373DA5CC2AF3CAB8002E787A /* NEWLINEHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEWLINEHTMLTag.h; sourceTree = "<group>"; };
+		373DA5CD2AF3CAB8002E787A /* FONTHTMLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FONTHTMLTag.h; sourceTree = "<group>"; };
+		373DA5CF2AF3CAB8002E787A /* HTMLParserAttRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParserAttRegex.m; sourceTree = "<group>"; };
+		373DA5D02AF3CAB8002E787A /* NSTextCheckingResult+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextCheckingResult+Tool.h"; sourceTree = "<group>"; };
+		373DA5D12AF3CAB8002E787A /* HTMLBaseTag+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTMLBaseTag+Tool.m"; sourceTree = "<group>"; };
+		373DA5D22AF3CAB8002E787A /* HTMLParserTagRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParserTagRegex.h; sourceTree = "<group>"; };
+		373DA5D32AF3CAB8002E787A /* HTMLParserAttRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParserAttRegex.h; sourceTree = "<group>"; };
+		373DA5D42AF3CAB8002E787A /* NSTextCheckingResult+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextCheckingResult+Tool.m"; sourceTree = "<group>"; };
+		373DA5D52AF3CAB8002E787A /* HTMLParserTagRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParserTagRegex.m; sourceTree = "<group>"; };
+		373DA5D62AF3CAB8002E787A /* HTMLBaseTag+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMLBaseTag+Tool.h"; sourceTree = "<group>"; };
+		373DA5E82AF3CC81002E787A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		373DA5E92AF3CC81002E787A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		42013ED6D068059088626EB3 /* libPods-HTMLParseDomn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTMLParseDomn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E969C90F57EC963C91CDF93 /* Pods-HTMLParseDomn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLParseDomn.debug.xcconfig"; path = "Target Support Files/Pods-HTMLParseDomn/Pods-HTMLParseDomn.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3D60D856CA0A95911777BE /* Pods-HTMLParseDomn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLParseDomn.release.xcconfig"; path = "Target Support Files/Pods-HTMLParseDomn/Pods-HTMLParseDomn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +85,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E00FF20F035588D0FE26EF8 /* libPods-HTMLParseDomn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2D96ECB100DF1514EA350E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42013ED6D068059088626EB3 /* libPods-HTMLParseDomn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		373DA5932AF3CA8E002E787A = {
 			isa = PBXGroup;
 			children = (
 				373DA59E2AF3CA8E002E787A /* HTMLParseDomn */,
 				373DA59D2AF3CA8E002E787A /* Products */,
+				50DB39EE9ABAD35A1C2C2C72 /* Pods */,
+				2D2D96ECB100DF1514EA350E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +121,7 @@
 		373DA59E2AF3CA8E002E787A /* HTMLParseDomn */ = {
 			isa = PBXGroup;
 			children = (
+				373DA5B82AF3CAB8002E787A /* WBHTMLParse */,
 				373DA59F2AF3CA8E002E787A /* AppDelegate.h */,
 				373DA5A02AF3CA8E002E787A /* AppDelegate.m */,
 				373DA5A22AF3CA8E002E787A /* SceneDelegate.h */,
@@ -76,6 +137,68 @@
 			path = HTMLParseDomn;
 			sourceTree = "<group>";
 		};
+		373DA5B82AF3CAB8002E787A /* WBHTMLParse */ = {
+			isa = PBXGroup;
+			children = (
+				373DA5BC2AF3CAB8002E787A /* HTMLParserDelegate.h */,
+				373DA5BA2AF3CAB8002E787A /* HTMLParserDelegate.m */,
+				373DA5BB2AF3CAB8002E787A /* HTMLParser.h */,
+				373DA5B92AF3CAB8002E787A /* HTMLParser.m */,
+				373DA5BD2AF3CAB8002E787A /* HTMLTag */,
+				373DA5CE2AF3CAB8002E787A /* Tool */,
+			);
+			path = WBHTMLParse;
+			sourceTree = "<group>";
+		};
+		373DA5BD2AF3CAB8002E787A /* HTMLTag */ = {
+			isa = PBXGroup;
+			children = (
+				373DA5BE2AF3CAB8002E787A /* HTMLTagFactory.h */,
+				373DA5BF2AF3CAB8002E787A /* IMGHTMLTag.h */,
+				373DA5C02AF3CAB8002E787A /* HTMLTagHeader.m */,
+				373DA5C12AF3CAB8002E787A /* HTMLBaseTag.m */,
+				373DA5C22AF3CAB8002E787A /* BHTMLTag.h */,
+				373DA5C32AF3CAB8002E787A /* TextHTMLTag.m */,
+				373DA5C42AF3CAB8002E787A /* FONTHTMLTag.m */,
+				373DA5C52AF3CAB8002E787A /* NEWLINEHTMLTag.m */,
+				373DA5C62AF3CAB8002E787A /* IMGHTMLTag.m */,
+				373DA5C72AF3CAB8002E787A /* HTMLTagFactory.m */,
+				373DA5C82AF3CAB8002E787A /* BHTMLTag.m */,
+				373DA5C92AF3CAB8002E787A /* HTMLBaseTag.h */,
+				373DA5CA2AF3CAB8002E787A /* HTMLTagHeader.h */,
+				373DA5CB2AF3CAB8002E787A /* TextHTMLTag.h */,
+				373DA5CC2AF3CAB8002E787A /* NEWLINEHTMLTag.h */,
+				373DA5CD2AF3CAB8002E787A /* FONTHTMLTag.h */,
+			);
+			path = HTMLTag;
+			sourceTree = "<group>";
+		};
+		373DA5CE2AF3CAB8002E787A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				373DA5E92AF3CC81002E787A /* UIColor+Hex.h */,
+				373DA5E82AF3CC81002E787A /* UIColor+Hex.m */,
+				373DA5D32AF3CAB8002E787A /* HTMLParserAttRegex.h */,
+				373DA5CF2AF3CAB8002E787A /* HTMLParserAttRegex.m */,
+				373DA5D02AF3CAB8002E787A /* NSTextCheckingResult+Tool.h */,
+				373DA5D42AF3CAB8002E787A /* NSTextCheckingResult+Tool.m */,
+				373DA5D62AF3CAB8002E787A /* HTMLBaseTag+Tool.h */,
+				373DA5D12AF3CAB8002E787A /* HTMLBaseTag+Tool.m */,
+				373DA5D22AF3CAB8002E787A /* HTMLParserTagRegex.h */,
+				373DA5D52AF3CAB8002E787A /* HTMLParserTagRegex.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		50DB39EE9ABAD35A1C2C2C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E969C90F57EC963C91CDF93 /* Pods-HTMLParseDomn.debug.xcconfig */,
+				BC3D60D856CA0A95911777BE /* Pods-HTMLParseDomn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 373DA5B52AF3CA8F002E787A /* Build configuration list for PBXNativeTarget "HTMLParseDomn" */;
 			buildPhases = (
+				0E97658FA186E2D46D83E62A /* [CP] Check Pods Manifest.lock */,
 				373DA5982AF3CA8E002E787A /* Sources */,
 				373DA5992AF3CA8E002E787A /* Frameworks */,
 				373DA59A2AF3CA8E002E787A /* Resources */,
@@ -141,15 +265,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E97658FA186E2D46D83E62A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTMLParseDomn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		373DA5982AF3CA8E002E787A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373DA5D82AF3CAB8002E787A /* HTMLParserDelegate.m in Sources */,
+				373DA5EA2AF3CC81002E787A /* UIColor+Hex.m in Sources */,
+				373DA5DB2AF3CAB8002E787A /* TextHTMLTag.m in Sources */,
+				373DA5E22AF3CAB8002E787A /* HTMLBaseTag+Tool.m in Sources */,
+				373DA5DC2AF3CAB8002E787A /* FONTHTMLTag.m in Sources */,
 				373DA5A72AF3CA8E002E787A /* ViewController.m in Sources */,
+				373DA5E32AF3CAB8002E787A /* NSTextCheckingResult+Tool.m in Sources */,
+				373DA5DD2AF3CAB8002E787A /* NEWLINEHTMLTag.m in Sources */,
 				373DA5A12AF3CA8E002E787A /* AppDelegate.m in Sources */,
+				373DA5D92AF3CAB8002E787A /* HTMLTagHeader.m in Sources */,
+				373DA5DF2AF3CAB8002E787A /* HTMLTagFactory.m in Sources */,
+				373DA5DA2AF3CAB8002E787A /* HTMLBaseTag.m in Sources */,
+				373DA5E12AF3CAB8002E787A /* HTMLParserAttRegex.m in Sources */,
 				373DA5B22AF3CA8F002E787A /* main.m in Sources */,
+				373DA5DE2AF3CAB8002E787A /* IMGHTMLTag.m in Sources */,
 				373DA5A42AF3CA8E002E787A /* SceneDelegate.m in Sources */,
+				373DA5E02AF3CAB8002E787A /* BHTMLTag.m in Sources */,
+				373DA5E42AF3CAB8002E787A /* HTMLParserTagRegex.m in Sources */,
+				373DA5D72AF3CAB8002E787A /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +451,7 @@
 		};
 		373DA5B62AF3CA8F002E787A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E969C90F57EC963C91CDF93 /* Pods-HTMLParseDomn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +478,7 @@
 		};
 		373DA5B72AF3CA8F002E787A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3D60D856CA0A95911777BE /* Pods-HTMLParseDomn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
